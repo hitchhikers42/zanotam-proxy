@@ -1,0 +1,60 @@
+{
+  "name": "reviews",
+  "version": "",
+  "description": "Reviews module for BB&B sales page mock.",
+  "author": "Robert Baker",
+  "license": "",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p",
+    "server": "nodemon src/server"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "nodemon": "^2.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-image-magnify": "^2.7.4",
+    "react-player": "^1.14.2",
+    "react-tooltip": "^3.11.1",
+    "serve-favicon": "^2.5.0",
+    "styled-components": "^4.4.1",
+    "faker": "^4.1.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "react-router-dom": "^5.1.2",
+    "react-select": "^3.0.8",
+    "regenerator-runtime": "^0.13.3",
+    "jsonwebtoken": "^8.5.1",
+    "core-js": "^3.4.8",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/runtime": "^7.7.6",
+    "@material-ui/core": "^4.7.1",
+    "@material-ui/icons": "^4.5.1",
+    "@material/menu": "^4.0.0",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "mysql": "^2.17.1",
+    "aws-sdk": "^2.582.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "jest": "^24.9.0",
+    "mocha": "^6.2.2",
+    "axios": "^0.19.0"
+  }
+}
