@@ -46,7 +46,7 @@
     "@babel/preset-env": "^7.7.4",
     "@babel/preset-react": "^7.7.4",
     "aws-sdk": "^2.1354.0",
-    "axios": "^0.21.2",
+    "axios": "^1.6.0",
     "babel-loader": "^8.3.0",
     "chai": "^4.2.0",
     "cors": "^2.8.5",
